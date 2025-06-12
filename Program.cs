@@ -27,10 +27,22 @@ void ExibirOpcoesDoMenu()
     Console.Write("\nDigite a sua opção: ");
     string opcaoEscolhida = Console.ReadLine()!;
     int opcapEscolhidaNumerica = int.Parse(opcaoEscolhida);
-    if (opcapEscolhidaNumerica == 1)
+   
+    switch (opcapEscolhidaNumerica)
     {
-        Console.WriteLine("Você digitou a opção " + opcaoEscolhida);
-    }
+        case 1: Console.WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+            break;
+        case 2: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+            break;
+        case 3: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+            break;
+        case 4: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+            break;
+        case 5: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+            break;
+        default: Console.WriteLine("Opção Inválida!");
+            break;
+    }   
 }
 
 ExibirMensagemDeBoasVindas();
