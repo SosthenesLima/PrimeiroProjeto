@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\sosthenes\source\repos\PrimeiroProjeto\PrimeiroProjeto\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\sosthenes\source\repos\PrimeiroProjeto\PrimeiroProjeto\.editorconfig" />
+  </ItemGroup>
+
 </Project>
