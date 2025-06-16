@@ -87,7 +87,9 @@ void ExibirTituloDaOpcao(string titulo)
 {
      int quanditadeDeLetras = titulo.Length;
     string asteriscos = string.Empty.PadLeft(quanditadeDeLetras, '*');
-        
+    Console.WriteLine(asteriscos);
+    Console.WriteLine(titulo);
+    Console.WriteLine(asteriscos + "\n");
 }
 
 ExibirOpcoesDoMenu();
