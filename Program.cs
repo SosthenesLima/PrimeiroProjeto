@@ -64,9 +64,9 @@ void RegistrarBandas()
 void MostrarBandasRegistradas()
 {
     Console.Clear();
-    Console.WriteLine("****************************************");
+    Console.WriteLine("************************************");
     Console.WriteLine("Exibindo todas as bandas registradas");
-    Console.WriteLine("**************************************\n");
+    Console.WriteLine("************************************\n");
     //for (int i = 0; i < listaDasBandas.Count; i++)
     //{
       //  Console.WriteLine($"Banda: {listaDasBandas[i]}");
@@ -82,4 +82,12 @@ void MostrarBandasRegistradas()
     ExibirOpcoesDoMenu();
 
 }
+
+void ExibirTituloDaOpcao(string titulo)
+{
+     int quanditadeDeLetras = titulo.Length;
+    string asteriscos = string.Empty.PadLeft(quanditadeDeLetras, '*');
+        
+}
+
 ExibirOpcoesDoMenu();
