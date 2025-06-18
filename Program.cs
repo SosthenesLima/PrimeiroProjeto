@@ -41,7 +41,7 @@ void ExibirOpcoesDoMenu()
             break;
         case 2: MostrarBandasRegistradas();
             break;
-        case 3: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+        case 3: AvaliarUmaBanda();
             break;
         case 4: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
             break;
@@ -93,6 +93,13 @@ void ExibirTituloDaOpcao(string titulo)
     Console.WriteLine(asteriscos);
     Console.WriteLine(titulo);
     Console.WriteLine(asteriscos + "\n");
+}
+
+void AvaliarUmaBanda()
+{
+    //digite qual banda que deseja avaliar
+    // se a banda existir no dicionário  >> atribuir uma nota
+    // senão, volta ao menu principal
 }
 
 ExibirOpcoesDoMenu();
