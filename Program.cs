@@ -108,11 +108,15 @@ void AvaliarUmaBanda()
     if (bandasRegistradas.ContainsKey(nomedaBanda))
     {
 
-    } else {
-        Console.WriteLine($"A banda {nomedaBanda} não foi encontrada!");
+    }
+    else
+    {
+        Console.WriteLine($"\nA banda {nomedaBanda} não foi encontrada!");
         Console.WriteLine("Digite uma tecla para voltar ao menu principal");
         Console.ReadKey();
+        Console.Clear();
         ExibirOpcoesDoMenu();
     }
 
-ExibirOpcoesDoMenu();
+}
+     ExibirOpcoesDoMenu();
