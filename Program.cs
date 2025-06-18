@@ -72,7 +72,7 @@ void MostrarBandasRegistradas()
     //{
       //  Console.WriteLine($"Banda: {listaDasBandas[i]}");
     //}
-      foreach (var banda in listaDasBandas)
+      foreach (var banda in bandasRegistradas.Keys)
     {
         Console.WriteLine($"Banda: {banda}");
     }
