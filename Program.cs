@@ -100,6 +100,9 @@ void AvaliarUmaBanda()
     //digite qual banda que deseja avaliar
     // se a banda existir no dicionário  >> atribuir uma nota
     // senão, volta ao menu principal
+
+    Console.Clear();
+    ExibirTituloDaOpcao("Avaliar banda");
 }
 
 ExibirOpcoesDoMenu();
