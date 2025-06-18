@@ -1,6 +1,10 @@
 ﻿// Screen Sound
 String mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
-List<string> listaDasBandas = new List<string> {"U2", "Metallica", "Megadeath" };
+//List<string> listaDasBandas = new List<string> {"U2", "Metallica", "Megadeath" };
+
+Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
+
+
 void ExibirLogo()
 {
     Console.WriteLine(@"
