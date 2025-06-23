@@ -111,6 +111,9 @@ void AvaliarUmaBanda()
         int nota = int.Parse(Console.ReadLine()!);
         bandasRegistradas[nomedaBanda].Add(nota);
         Console.WriteLine($"\nA nota {nota} foi reristrada com sucesso para a banda {nomedaBanda}");
+        Thread.Sleep(2000);
+        Console.Clear();
+        ExibirOpcoesDoMenu();
 
     } else
     {
