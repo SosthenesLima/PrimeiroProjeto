@@ -43,7 +43,7 @@ void ExibirOpcoesDoMenu()
             break;
         case 3: AvaliarUmaBanda();
             break;
-        case 4: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
+        case 4: ExibirMedia();
             break;
         case 5: Console .WriteLine("Você escolheu a opção " + opcapEscolhidaNumerica);
             break;
@@ -125,4 +125,14 @@ void AvaliarUmaBanda()
     }
 
 }
+    void ExibirMedia()
+{
+    Console.Clear();
+    ExibirTituloDaOpcao("Exibir Média da banda");
+    Console.Write("Digite o nome da banda que deseja exibir a média: ");
+    string nomedaBanda = Console.ReadLine()!;
+
+
+}     
+
      ExibirOpcoesDoMenu();
