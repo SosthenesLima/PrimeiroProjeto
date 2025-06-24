@@ -131,11 +131,12 @@ void AvaliarUmaBanda()
     ExibirTituloDaOpcao("Exibir Média da banda");
     Console.Write("Digite o nome da banda que deseja exibir a média: ");
     string nomedaBanda = Console.ReadLine()!;
-    if (bandasRegistradas.ContainsKey (nomedaBanda)) 
+    if (bandasRegistradas.ContainsKey(nomedaBanda))
     {
 
 
-    }else
+    }
+    else
     {
         Console.WriteLine($"\nA banda {nomedaBanda} não foi encontrada!");
         Console.WriteLine("Digite uma tecla para voltar ao menu principal");
@@ -144,4 +145,5 @@ void AvaliarUmaBanda()
         ExibirOpcoesDoMenu();
     }
 
-        ExibirOpcoesDoMenu();
+}
+ExibirOpcoesDoMenu();
