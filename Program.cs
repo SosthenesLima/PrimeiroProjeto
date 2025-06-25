@@ -133,7 +133,8 @@ void AvaliarUmaBanda()
     string nomedaBanda = Console.ReadLine()!;
     if (bandasRegistradas.ContainsKey(nomedaBanda))
     {
-
+        List<int> notasDaBanda = bandasRegistradas [nomedaBanda];
+        Console.WriteLine(notasDaBanda.Average());
 
     }
     else
