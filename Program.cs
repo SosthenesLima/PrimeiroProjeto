@@ -134,8 +134,11 @@ void AvaliarUmaBanda()
     if (bandasRegistradas.ContainsKey(nomedaBanda))
     {
         List<int> notasDaBanda = bandasRegistradas [nomedaBanda];
-        Console.WriteLine(notasDaBanda.Average());
-
+        Console.WriteLine($"\nA média da banda {nomedaBanda} é {notasDaBanda.Average()}.");
+        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesDoMenu();
     }
     else
     {
