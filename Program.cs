@@ -4,6 +4,7 @@ String mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
 
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
 bandasRegistradas.Add("Linkin Park", new List<int> { 10, 8, 6 });
+bandasRegistradas.Add("Metallica", new List<int> { 10, 9, 3 });
 bandasRegistradas.Add("The Beatles", new List<int>());
 
 
