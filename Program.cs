@@ -6,7 +6,7 @@ Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<in
 bandasRegistradas.Add("Linkin Park", new List<int> { 10, 8, 6 });
 bandasRegistradas.Add("Metallica", new List<int> { 10, 9, 3 });
 bandasRegistradas.Add("Kreator", new List<int> ());
-bandasRegistradas.Add("The Beatles", new List<int>());
+bandasRegistradas.Add("The Beatles", new List<int> {5, 6, 8, 1});
 
 
 void ExibirLogo()
